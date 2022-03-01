@@ -25,10 +25,26 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+hr {
+    color: #EAF6F6;
+    border-style: dotted;
+    width: 60px;
+    border-width: 10px;
+    border-top: none;
+}
+
 .top-container {
     background-color: #E4F9F5;
     position: relative;
     padding-top: 100px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    
 }
 
 .cloud-top {
@@ -41,6 +57,10 @@ h3 {
     position: absolute;
     left: 350px;
     bottom: 300px;
+}
+
+.description {
+    color: #40514E;
 }
 
 .skills {
@@ -70,6 +90,30 @@ h3 {
     border-radius: 100%;
 }
 
-a {
-    color: #11999E;
+.button-contact {
+    font-size: 1.2rem;
+    border-radius: 7px;
+    height: 45px;
+    width: 165px;
+    background: linear-gradient(#66BFBF, #11999E);
+    border: none;
+}
+
+.anchor-contact {
+    text-decoration: none;
+    color: white;
+}
+
+.site-creator {
+    color: #EAF6F6
+}
+
+.table-contact {
+    margin: auto;
+}
+
+.anchor-contact-bottom {
+    padding: 20px;
+    text-decoration: none;
+    color: #0e7d81;
 }
